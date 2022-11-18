@@ -22,10 +22,6 @@ function App() {
       });
   }, []);
 
-  useEffect(() => {
-    console.log(data);
-  }, [data]);
-
   return (
     <BrowserRouter>
       <div className="flex justify-center bg-mainBg py-5">
