@@ -10,17 +10,18 @@ interface Props {
 }
 
 function JobPage({ data, page, setPage }: Props) {
-
   return (
     <div className="max-w-screen-xl">
       {data.slice(page * 15, (page + 1) * 15).map((value) => {
         return <JobCard job={value} key={value.id} />;
       })}
-      <PaginationComponent
-        pagesCount={Math.ceil(data.length / 15)}
-        page={page}
-        setPage={setPage}
-      />
+      {data.length > 15 ? (
+        <PaginationComponent
+          pagesCount={Math.ceil(data.length / 15)}
+          page={page}
+          setPage={setPage}
+        />
+      ) : null}
     </div>
   );
 }
