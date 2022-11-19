@@ -21,7 +21,7 @@ function JobCard({ job}: Props) {
     }, []);
 
   return (
-    <div className="relative flex justify-between flex-col-reverse sm:flex-row bg-gray-100 sm:bg-white rounded-lg mt-1 px-2 py-4 drop-shadow-md">
+    <div className="relative flex justify-between flex-col-reverse sm:flex-row bg-white rounded-lg mt-1 px-2 py-4 drop-shadow-md">
       <img
         src={job.pictures[0]}
         alt=""

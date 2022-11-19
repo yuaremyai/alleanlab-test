@@ -11,6 +11,7 @@ module.exports = {
         white: '#ffffff',
         black: '#000000',
         mainBg: '#F5F5F5',
+        cardBg: 'EFF0F5',
         buttonBorder : '#0000001f',
         employButton: {
           light: '#a1b1db4d',

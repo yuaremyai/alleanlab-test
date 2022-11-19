@@ -8,7 +8,7 @@ interface Props {
 
 function JobGeoPos({ geoData }: Props) {
   return (
-    <div className="flex text-xs text-secondary">
+    <div className="flex text-xs h-4 text-secondary">
       <img src={mark} alt="" className="w-2 mr-1" />
       {!geoData?.country
         ? <div>{geoData?.name}</div>
