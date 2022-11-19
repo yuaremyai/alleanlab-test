@@ -22,9 +22,6 @@ function App() {
       });
   }, []);
 
-  useEffect(() => {
-    console.log(data);
-  }, [data]);
 
   return (
     <BrowserRouter>
