@@ -24,7 +24,7 @@ function App() {
 
 
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/alleanlab-test/">
       <div className="flex justify-center py-5">
         <div className="max-w-6xl">
           <Routes>
