@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <div className="flex justify-center bg-mainBg py-5">
         <div className="max-w-6xl">
           <Routes>
