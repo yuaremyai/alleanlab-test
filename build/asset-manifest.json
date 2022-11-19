@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alleanlab-test/static/css/main.b01c1b41.css",
-    "main.js": "/alleanlab-test/static/js/main.7a8040d6.js",
+    "main.js": "/alleanlab-test/static/js/main.8cd3aeb7.js",
     "static/media/star.svg": "/alleanlab-test/static/media/star.940f154bce8c4fba195c32ab44b144f2.svg",
     "static/media/share.svg": "/alleanlab-test/static/media/share.7381a5999554764f3ce8249d49192539.svg",
     "static/media/ReturnArrow.svg": "/alleanlab-test/static/media/ReturnArrow.81b0f26cb6486aa14408fc44c9104536.svg",
@@ -10,10 +10,10 @@
     "index.html": "/alleanlab-test/index.html",
     "static/media/mark.svg": "/alleanlab-test/static/media/mark.1c093ca173a538132f1ce31ab6296061.svg",
     "main.b01c1b41.css.map": "/alleanlab-test/static/css/main.b01c1b41.css.map",
-    "main.7a8040d6.js.map": "/alleanlab-test/static/js/main.7a8040d6.js.map"
+    "main.8cd3aeb7.js.map": "/alleanlab-test/static/js/main.8cd3aeb7.js.map"
   },
   "entrypoints": [
     "static/css/main.b01c1b41.css",
-    "static/js/main.7a8040d6.js"
+    "static/js/main.8cd3aeb7.js"
   ]
 }
