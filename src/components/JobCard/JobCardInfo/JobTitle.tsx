@@ -7,7 +7,7 @@ function JobTitle({ job, geoData }: IJobProp) {
   function handleClick(event:React.MouseEvent<HTMLDivElement>) {
     navigate(`/details/${job.id}`, {state: {job: job, geoData: geoData}})
   }
-  return <div onClick={handleClick} className="text-sm text-primary font-medium">{job.title}</div>;
+  return <div onClick={handleClick} className="text-sm text-primary font-medium cursor-pointer">{job.title}</div>;
 }
 
 export default JobTitle;
